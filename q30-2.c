@@ -5,11 +5,11 @@ int A[20],total_movement[20];
 int disk;
 void getdata()
 {
- printf("enter number of location\t");
+ printf("enter the number of locations\t");
  scanf("%d",&n);
- printf("enter position of head\t");
+ printf("enter initial position of head\t");
  scanf("%d",&disk);
- printf("enter elements of disk queue\n");
+ printf("enter elements of queue\n");
  for(i=0;i<n;i++)
  {
  scanf("%d",&A[i]);
@@ -32,7 +32,7 @@ int main()
  {
  printf("\n%d",total_movement[i]);
  }   
- printf("\nmovement of total cylinders %d",sum);
+ printf("\ntotal movement of disk arm = %d",sum);
  getch();
  return 0;
 }
